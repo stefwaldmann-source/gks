@@ -65,6 +65,7 @@ INSERT INTO pages(title, slug, intro, content, sort_order, is_published) VALUES
 ('Heizung', 'heizung', 'Effiziente Heizsysteme für jedes Gebäude.', 'Wärmepumpen, Hybridanlagen und Heizungsmodernisierung inklusive Förderberatung.', 20, 1),
 ('Lüftung & Klima', 'lueftung-klima', 'Besseres Raumklima mit durchdachter Technik.', 'Klimaanlagen, Wohnraumlüftung und Service aus einer Hand.', 30, 1),
 ('Solar', 'solar', 'Nachhaltige Energie vom eigenen Dach.', 'Photovoltaik, Solarthermie und Speichersysteme.', 40, 1),
+('Notdienst', 'notdienst', 'Schnelle Hilfe bei Störungen.', 'Notdienst-Hotline: 0911 6507 900\nAußerhalb der Öffnungszeiten bitte Notfall schildern.', 50, 1),
 ('Kontakt', 'kontakt', 'Wir freuen uns auf Ihr Projekt.', 'Telefon: 01234-5678\nE-Mail: info@gkshaustechnik.de', 100, 1),
 ('Datenschutz', 'datenschutz', 'Datenschutzhinweise', 'Diese Seite ist im CMS editierbar und dient als DSGVO-Seite.', 110, 1),
 ('Impressum', 'impressum', 'Impressum', 'Diese Seite ist im CMS editierbar und dient als Impressum.', 120, 1);

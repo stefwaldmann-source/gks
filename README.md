@@ -2,8 +2,8 @@
 
 Schlankes PHP/MySQL-Webseiten-Grundsystem für gkshaustechnik.de mit:
 
-- Startseite mit Hero, Leistungsboxen, Job-Teaser und Popup.
-- CMS-Seiten (z. B. Sanitär, Heizung, Impressum, Datenschutz) vollständig im Admin pflegbar.
+- Dunklem, modernem Onepage-Start-Look im Stil des gelieferten Layouts (Hero + klare Kachelstruktur).
+- CMS-Seiten (z. B. Sanitär, Heizung, Notdienst, Impressum, Datenschutz) vollständig im Admin pflegbar.
 - Jobs-Modul mit eigener Übersicht und Detailseite.
 - Adminbereich für Inhalte, Jobs, Startseiteninhalte und Hinweise.
 
@@ -20,13 +20,13 @@ Schlankes PHP/MySQL-Webseiten-Grundsystem für gkshaustechnik.de mit:
 
 ## Download / ZIP-Paket erstellen
 
-Ja – ein Upload-fertiges ZIP kannst du direkt erzeugen:
+Upload-fertiges Paket erstellen:
 
 ```bash
 ./scripts/create-release-zip.sh
 ```
 
-Das Paket wird unter `dist/` erzeugt, z. B.:
+Ausgabe:
 
 - `dist/gks-mini-cms-YYYYMMDD-HHMMSS.zip`
 
