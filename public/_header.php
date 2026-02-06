@@ -1,5 +1,6 @@
 <?php
 /** @var string $title */
+$logoUrl = setting('logo_url');
 ?>
 <!DOCTYPE html>
 <html lang="de">
@@ -13,8 +14,12 @@
 <header class="site-header">
     <div class="container inner">
         <a class="logo" href="/">
-            GKS
-            <small>Haustechnik</small>
+            <?php if ($logoUrl !== ''): ?>
+                <img class="logo-image" src="<?= e($logoUrl) ?>" alt="<?= e($siteName) ?>">
+            <?php else: ?>
+                GKS
+                <small>Haustechnik</small>
+            <?php endif; ?>
         </a>
 
         <nav class="nav" aria-label="Hauptnavigation">

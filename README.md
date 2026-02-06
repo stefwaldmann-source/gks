@@ -2,7 +2,8 @@
 
 Schlankes PHP/MySQL-Webseiten-Grundsystem für gkshaustechnik.de mit:
 
-- Dunklem, modernem Onepage-Start-Look im Stil des gelieferten Layouts (Hero + klare Kachelstruktur).
+- Dunklem, modernem Startseiten-Look (Hero + Leistungskacheln + KPI-Band + Kontaktblöcke).
+- **Logo und Teaser-Titelbild im Admin frei änderbar** (`logo_url`, `hero_title_image`).
 - CMS-Seiten (z. B. Sanitär, Heizung, Notdienst, Impressum, Datenschutz) vollständig im Admin pflegbar.
 - Jobs-Modul mit eigener Übersicht und Detailseite.
 - Adminbereich für Inhalte, Jobs, Startseiteninhalte und Hinweise.
@@ -17,6 +18,17 @@ Schlankes PHP/MySQL-Webseiten-Grundsystem für gkshaustechnik.de mit:
 
 - E-Mail: `admin@gkshaustechnik.de`
 - Passwort: `admin123`
+
+## Logo / Teaser / weitere Infos bearbeiten
+
+Im Adminbereich unter **Startseiten-Teaser & Popup** können jetzt u. a. gepflegt werden:
+
+- `logo_url`
+- `hero_title_image`
+- `hero_image`
+- `teaser_strip_image`
+- `about_title`, `about_text`
+- KPI-Werte (`stat_1_*` bis `stat_4_*`)
 
 ## Download / ZIP-Paket erstellen
 

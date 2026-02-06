@@ -120,7 +120,7 @@ $msg = flash();
 
     <section class="card">
         <h2>Startseiten-Teaser & Popup</h2>
-        <?php foreach (['hero_title','hero_subtitle','hero_button_text','hero_button_url','hero_image','popup_text','opening_hours','job_email'] as $settingKey): ?>
+        <?php foreach (['logo_url','hero_title_image','hero_title','hero_subtitle','hero_button_text','hero_button_url','hero_image','teaser_strip_image','about_title','about_text','stat_1_value','stat_1_label','stat_2_value','stat_2_label','stat_3_value','stat_3_label','stat_4_value','stat_4_label','popup_text','opening_hours','job_email'] as $settingKey): ?>
             <form method="post">
                 <input type="hidden" name="action" value="save_setting">
                 <input type="hidden" name="key" value="<?= e($settingKey) ?>">
