@@ -1,0 +1,24 @@
+name: Kopf V1.1.3 Runner-Test
+
+on:
+  pull_request:
+    branches:
+      - main
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  runner-test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Java und Android-Umgebung prüfen
+        shell: bash
+        run: |
+          set -euo pipefail
+          java -version
+          test -n "${ANDROID_HOME:-}"
+          test -d "$ANDROID_HOME/build-tools"
+          echo "Runner ist bereit."
